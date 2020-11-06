@@ -1,0 +1,67 @@
+/* HTML */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <body>
+        <div class="flexbox-container">
+        <div class="flexbox-item" id="item-1">
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            possimus quisquam, culpa sed sequi reprehenderit. Quidem dignissimos,
+            recusandae deleniti consequuntur rerum laudantium tempora earum,
+            eveniet accusamus sint quam deserunt accusantium? lorem
+            </p>
+        </div>
+        <div class="flexbox-item" id="item-2">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                possimus quisquam, culpa sed sequi reprehenderit. Quidem dignissimos,
+                recusandae deleniti consequuntur rerum laudantium tempora earum,
+                eveniet accusamus sint quam deserunt accusantium? lorem
+            </p>
+        </div>
+        <div class="flexbox-item" id="item-3">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+                possimus quisquam, culpa sed sequi reprehenderit. Quidem dignissimos,
+                recusandae deleniti consequuntur rerum laudantium tempora earum,
+                eveniet accusamus sint quam deserunt accusantium? lorem
+            </p>
+        </div>
+
+
+                /* CSS */
+
+                .flexbox-container {
+                display: flex;
+                justify-content: space-around;
+                align-items: space-around;
+                flex-wrap: wrap;
+                background-color: gray;
+                /* flex-direction: column; */
+                /* min-height: 1500px; */
+                }
+
+                .flexbox-item {
+                width: 200px;
+                margin: 10px;
+                border: solid 3px black;
+                }
+
+                #item-1 {
+                min-height: 100px;
+                display: flex;
+                justify-content: center;
+                }
+                #item-2 {
+                min-height: 200px;
+                }
+                #item-3 {
+                min-height: 300px;
+                }
+    </body>
+</html>
