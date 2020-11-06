@@ -53,11 +53,19 @@ h2{
     color: white;
   }
 
- .mul {
+ /* .mul {
     position:fixed;
-    width:200px;
-    height:113px;
-    background:red;
-    left:20px;
-    top:530px;
+    width:250px;
+    height:193px;
+    left:10px;
+    top:450px;
   }
+
+
+  .mul2 {
+    position:fixed;
+    width:250px;
+    height:193px;
+    left:620px;
+    top:450px;
+  } */
