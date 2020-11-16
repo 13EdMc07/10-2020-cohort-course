@@ -1,0 +1,49 @@
+/* The animation code */
+/* @keyframes example {
+    from {transform: translatex(0): red;}
+    to {transform: translateX(-200px);}
+    } */
+/* The element to apply the animation to */
+body{
+  background-image:url("./Carrousel.jpg")
+
+}
+/* background-image:<img width="500px" height="400px" src="./pic0.jpg"> */
+.midb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  min-width: 500px;
+  height: 400px;
+}
+
+#imageSlider, #imageSlider2 {
+  display: flex;
+  /* border: 10px red; */
+}
+#window, #window2 {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 500px;
+  height: 400px;
+  border: 10px solid red;
+}
+
+h1{
+  text-align: center;
+}
+
+#imageSlider2{
+  animation-name: example;
+  animation-delay: 6s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+    from {transform: translatex(0): red;}
+    to {transform: translateX(-2000px);}
+    }
